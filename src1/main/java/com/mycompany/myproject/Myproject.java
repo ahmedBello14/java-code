@@ -30,3 +30,12 @@ public class Projectteam {
             }
         }
         System.out.println("Given Matrix:");
+ System.out.println("Given Matrix:");
+        for (int i = 0; i < p; i++) 
+        {
+            for (int j = 0; j < q; j++) 
+            {
+                System.out.print(a[i][j] + " ");
+            }
+            System.out.println("");
+        }
