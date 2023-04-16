@@ -54,3 +54,25 @@ public static void main(String[] args)
 
 =======
 >>>>>>> 040cebeefd60faf31fcd4d04fe362fcd7294e9d2
+ switch (z) 
+            {
+                case 1:
+                System.out.println("Enter the row numbers:");
+                x = input.nextInt();
+                y = input.nextInt();
+                for(int i = 0; i < p; i++)
+                {
+                    change = a[(x-1)][i];
+                    a[x-1][i] = a[y-1][i];
+                    a[y-1][i] = change;
+                }
+                System.out.println("Matrix after interchanging rows:"+x +" and "+y);
+                for (int i = 0; i < p; i++) 
+                {
+                    for (int j = 0; j < q; j++) 
+                    {
+                        System.out.print(a[i][j] + " ");
+                    }
+                System.out.println("");
+                }
+                break;
