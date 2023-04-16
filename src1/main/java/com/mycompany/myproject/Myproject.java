@@ -39,3 +39,9 @@ public class Projectteam {
             }
             System.out.println("");
         }
+        while (m==true) 
+        {
+            System.out.println("Enter 1 to interchange rows");
+            System.out.println("Enter 2 to interchange columns");
+            System.out.println("Enter 3 to Exit");
+            z=input.nextInt();
