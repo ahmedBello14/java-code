@@ -38,22 +38,17 @@ public static void main(String[] args)
             System.out.print(a[i][j] + " ");
             }
             System.out.println("");
-<<<<<<< HEAD
+
         }   
-       while (m==true) 
-=======
-        }
+       
         while (m==true) 
->>>>>>> 040cebeefd60faf31fcd4d04fe362fcd7294e9d2
+
         {
             System.out.println("Enter 1 to interchange rows");
             System.out.println("Enter 2 to interchange columns");
             System.out.println("Enter 3 to Exit");
             z=input.nextInt();
-<<<<<<< HEAD
 
-=======
->>>>>>> 040cebeefd60faf31fcd4d04fe362fcd7294e9d2
  switch (z) 
             {
                 case 1:
@@ -76,3 +71,31 @@ public static void main(String[] args)
                 System.out.println("");
                 }
                 break;
+case 2:
+                System.out.println("Enter the column numbers:");
+                x = input.nextInt();
+                y = input.nextInt();
+                for(int i = 0; i < p; i++)
+                {
+                    change = a[i][(x-1)];
+                    a[i][x-1] = a[i][(y-1)];
+                    a[i][y-1] = change;
+                }
+                System.out.println("Matrix after interchanging columns:"+x +" and "+y);
+                for (int i = 0; i < p; i++) 
+                {
+                    for (int j = 0; j < q; j++) 
+                    {
+                        System.out.print(a[i][j] + " ");
+                    }
+                System.out.println("");
+                }
+                break;
+          	case 3:
+                    System.out.print("Exit program");
+              m=false;
+              
+            }
+        }
+    }
+}
