@@ -38,11 +38,19 @@ public static void main(String[] args)
             System.out.print(a[i][j] + " ");
             }
             System.out.println("");
+<<<<<<< HEAD
         }   
        while (m==true) 
+=======
+        }
+        while (m==true) 
+>>>>>>> 040cebeefd60faf31fcd4d04fe362fcd7294e9d2
         {
             System.out.println("Enter 1 to interchange rows");
             System.out.println("Enter 2 to interchange columns");
             System.out.println("Enter 3 to Exit");
             z=input.nextInt();
+<<<<<<< HEAD
 
+=======
+>>>>>>> 040cebeefd60faf31fcd4d04fe362fcd7294e9d2
